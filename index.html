@@ -49,7 +49,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
+<div class="w3-main" style="margin-left:300px" id='main'>
 
 <!--Jumbotrone-->  
 <div class='container'>
@@ -58,57 +58,62 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 <!--Heading1-->
 
 <!-- Header -->
-  <header id="portfolio">
+  <header id="mainheader">
     
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-container">
     <h1>What is women Empowerment?</h1>
-                                    <p>
+                                    <p2>
                                         “Empowerment describes the psychological concept of the worth of people who feel a sense of control and independence.
                                          Empowerment can occur under different conditions of our life and work environment, social status, legal situation and citizenship.
                                           Civil rights advocates for empowerment as an essential element of discrimination.
                                            They say that the lack of or active removal of the fortification of oppressed groups allows oppression to continue.
                                             Economists are increasingly applying the empowerment theory in their field. 
                                         There were sections of anti-poverty movements and efforts to help teams function more effectively “
-                                    </p>
+                                    </p2>
     <h1>Why is female empowerment important?</h1>
-         <p>
+         <p2>
             According to the European Institute for Gender Equality, Women’s empowerment has five main important components:<br>
-            1. Women’s sense of self-worth,<br>
-            2. Right to have and to determine choices,<br>
-            3. Right to have access to opportunities and resources,<br>
-            4. Right to have power to control their own lives, both within and outside the home,<br>
-            5. Ability to influence the direction of social change to create a more just social and economic order, nationally and internationally
-        </p>                                
-    
+            <ol>
+            <dt><b>1. Women’s sense of self-worth,</b></dt>
+            <dt><b>2. Right to have and to determine choices</b>,</dt> 
+            <dt><b>3.Right to have access to opportunities and resources,</b></dt> 
+            <dt><b>4. Right to have power to control their own lives, both within and outside the home,</b></dt> 
+            <dt><b>5. Ability to influence the direction of social change to create a more just social and economic order, nationally and internationally</b></dt> 
+            </ol> 
+            </p2>                                
+    <br><br>
     </div>
   </header>
+
  
   <!-- First Photo Grid-->
+
   <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="image/pic6.jpg" alt="Women" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Women's Empowerment Principles</b></p>
-        <p>There are many organization who Support the principles of women's empowerment. These principles are the result of a collaboration between the UN Global Compact and UN Women and have been adapted from Calvert Women's Principles.</p>
-        <button class="w3-button w3-block w3-dark-grey">Read</button>
+    <div class="w3-third w3-container w3-margin-bottom" >
+      <img src="image/pic6.jpg" alt="Women" style="width:100%" >
+      <div class="w3-container w3-white" id='container' >
+        <h3><b>Women's Empowerment Principles</b></h3>
+        <p>There are many organization who Support the principles of women's empowerment. 
+          These principles are the result of a collaboration between the UN Global Compact and UN Women and have been adapted from Calvert Women's Principles.</p>
       </div>
+      <button class="w3-button w3-block" id='button'>READ</button>
     </div>
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="image/pic2.jpg" alt="Women" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>How to support women’s?</b></p>
-        <p>These are 7 ways to empower women and girls around the world in simple way, Referring to the World Vision</p><br><br><br>
-        <button class="w3-button w3-block w3-dark-grey">Read</button>
+      <img src="image/pic2.jpg" alt="Women" style="width:100%" >
+      <div class="w3-container w3-white" id='container'>
+        <h3><b>How to support women’s?</b></h3>
+        <p>Referring to the World Vision, There are 7 ways to empower women and girls around the world in simple way.</p>
       </div>
+      <button class="w3-button w3-block" id='button'>READ</button>
     </div>
-    <div class="w3-third w3-container">
-      <img src="image/pic3.jpg" alt="Women" style="width:100%" class="w3-hover-opacity">
-      <div class="w3-container w3-white">
-        <p><b>Women who changed the world: Women in technology and science</b></p>
+    <div class="w3-third w3-container w3-margin-bottom" >
+      <img src="image/pic3.jpg" alt="Women" style="width:100%" >
+      <div class="w3-container w3-white" id='container'>
+        <h3><b>Women who changed the world:<br> Women in technology and science</b></h3>
         <p>There are many women<br> in this world who's changed the entire view and perspective of female gender by accomplishment of many great things.</p>
-        <button class="w3-button w3-block w3-dark-grey">Read</button>
       </div>
+      <button class="w3-button w3-block" id='button'>READ</button>
     </div>
     
   </div>
@@ -123,27 +128,22 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   <div class="w3-row-padding">
     <div class="w3-third">
       <h3>FOOTER</h3>
-      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Importance of Women Empowerment<br> By Anna Sikora</p>
       <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
     </div>
   
     <div class="w3-third">
       <h3>BLOG POSTS</h3>
-      <ul class="w3-ul w3-hoverable">
-        <li class="w3-padding-16">
-          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Lorem</span><br>
-          <span>Sed mattis nunc</span>
-        </li>
-        <li class="w3-padding-16">
-          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
-          <span class="w3-large">Ipsum</span><br>
-          <span>Praes tinci sed</span>
-        </li> 
-      </ul>
+      
+        
+          <a href="#">How women's rights are violated in the world?</a><br>
+          <a href="#">Women who changed the world: women in technology and science</a><br>
+          <a href="#">How to support women’s?</a><br>
+          <a href="#">Women's Empowerment Principles</a><br>
+        
+      
     </div>
 
-    <div class="w3-third">
       
 
   </div>

@@ -7,6 +7,9 @@
     
 
 }
+h1{
+  color: rgb(168, 168, 167);
+}
 h4
 {
     color: rgb(113, 30, 180);
@@ -20,6 +23,11 @@ p1
 {
     color: rgb(113, 30, 180);
     font-family: lato;
+}
+p2{
+  font-size: 20px !important;
+  margin: auto;
+  color: rgb(211, 207, 207);
 }
 .active
 {
@@ -73,3 +81,24 @@ p1
     float: right;
     padding-right: 8px;
   }
+  #button{
+    color: white;
+    background-color: rgb(139, 44, 99);
+    font-size: 15px;
+    font-family: Raleway;
+  }
+  #container {
+    height: 230px;
+    margin: auto;
+    
+  }
+ #mainheader
+  {
+    
+    
+  }
+  #main
+  {
+    background-color: rgb(20, 48, 90);
+  }
+  
