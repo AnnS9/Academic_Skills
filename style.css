@@ -122,4 +122,8 @@ p4
   {
     background-color: rgb(20, 48, 90);
   }
-  
+  #image1
+  {
+    float: right;
+    width: 50%;
+  }
