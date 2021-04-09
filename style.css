@@ -146,3 +146,16 @@ p5
   max-width: 800px;
   height: auto;
   }
+  * {
+    box-sizing: border-box;
+  }
+  .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
