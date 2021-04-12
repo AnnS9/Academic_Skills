@@ -57,7 +57,8 @@ p3
  }
 p4
 {
-  font-size: 12px;
+ 
+  font-size: 16px;
 }
 p5
 {
@@ -170,4 +171,8 @@ p6
   height:auto;
   float: right;
   margin-right: auto;
+}
+#des
+{
+ margin-top: 44px;
 }
