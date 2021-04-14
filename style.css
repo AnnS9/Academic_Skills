@@ -154,8 +154,7 @@ p6
   
   #imagetech
   {
-    width: 100%;
-  max-width: 350px;
+  width: 275px;
   height: 275px;
   border-radius: 50%;
   margin-right: 5%;
@@ -174,5 +173,5 @@ p6
 }
 #des
 {
- margin-top: 44px;
+ margin-top: 40px;
 }
